@@ -1,0 +1,26 @@
+table {
+    font-family: system-ui;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+th {
+    background-color: #333333;
+    color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #3266CC;
+    color: #fff;
+
+}
